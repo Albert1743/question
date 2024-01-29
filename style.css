@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.question {
+    background-color: #efe9e9;
+    color: #464444;
+    margin-bottom: 5px;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    border: none;
+    transition: 0.4s;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.question:hover {
+    background-color: #d5d3d3;
+}
+
+.answer {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
